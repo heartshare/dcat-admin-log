@@ -1,8 +1,8 @@
 # Dcat Admin Extension
 ## 日志扩展
 ## 示例
-![示例图-1](resources/assets/test1.png)
-![示例图-2](resources/assets/test2.png)
+![示例图-1](https://cdn.jsdelivr.net/gh/Death-Satan/cdn@master/test1.png)
+![示例图-2](https://cdn.jsdelivr.net/gh/Death-Satan/cdn@master/test2.png)
 ## 使用方法
 -- 在控制器中使用
 ```php
@@ -44,4 +44,5 @@ Route::group([
     
 });
 ```
--- 全局使用 参考文档laravel官方文档 [为路由分配中间件](https://learnku.com/docs/laravel/8.x/middleware/9366#assigning-middleware-to-routes)
+-- 全局使用 参考文档laravel官方文档 
+[为路由分配中间件](https://learnku.com/docs/laravel/8.x/middleware/9366#2fb6d2)

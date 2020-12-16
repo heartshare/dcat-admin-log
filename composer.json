@@ -1,0 +1,31 @@
+{
+    "name": "death_satan/dcat-admin-log",
+    "description": "dcat-admin extend log zh:dcat-admin扩展、侵入式后台日志扩展",
+    "type": "library",
+    "keywords": ["dcat-admin", "extension"],
+    "homepage": "https://github.com/death_satan/dcat-admin-log",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "death-satan",
+            "email": "2771717608@qq.com"
+        }
+    ],
+    "require": {
+        "php": ">=7.1.0",
+        "dcat/laravel-admin": "~2.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Dcat\\Admin\\Satan\\Admin\\Log\\": "src/"
+        }
+    },
+    "extra": {
+        "dcat-admin": "Dcat\\Admin\\Satan\\Admin\\Log\\DcatAdminLogServiceProvider",
+        "laravel": {
+            "providers": [
+                "Dcat\\Admin\\Satan\\Admin\\Log\\DcatAdminLogServiceProvider"
+            ]
+        }
+    }
+}

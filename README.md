@@ -1,5 +1,9 @@
 # Dcat Admin Extension
 ## 日志扩展
+# 安装
+```shell script
+composer require death_satan/dcat-admin-log
+```
 ## 示例
 ![示例图-1](https://cdn.jsdelivr.net/gh/Death-Satan/cdn@master/test1.png)
 ![示例图-2](https://cdn.jsdelivr.net/gh/Death-Satan/cdn@master/test2.png)
